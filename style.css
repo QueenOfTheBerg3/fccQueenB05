@@ -1,0 +1,81 @@
+#maindoc {
+  background-color: #ddeedd;
+  font-family: Arial, Helvetica, sans-serif;
+  width:96vw;
+  border: 0.4vw solid #e76d89;
+  box-sizing: border-box;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  text-align: center;
+  color: darkblue;
+}
+@media only screen and (min-width: 600px) {
+ #maindoc {
+    width: 95vw;
+  }}
+  #navbar {
+    display: flex;
+    overflow: none;
+    justify-content: center;
+    align-content: center;
+    background-color: #ddeedd;
+    position: fixed;
+    top: 0;
+    width: 94vw;
+    margin: 1px 1vw;
+  } /* small screen */
+  @media only screen and (min-width: 600px) {
+    #navbar {
+      width: 76vw;
+      margin: 2px 9vw ;
+    }} /* wide screen */
+.navlink {
+  padding: 1px 1vw;
+} /* small screen */
+@media only screen and (min-width: 600px) {
+  .navlink {
+    margin: 1px 2vw;
+  }} /* wide screen */
+#welcome-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  background: #dadada;
+  width: 90vw;
+  height: 100vh;
+  margin: 0px auto;
+} /* small screen */
+@media only screen and (min-width: 600px) {
+  #welcome-section {
+    width: 76vw;
+    height: 100vh;
+    margin: 0px auto;
+  }} /* wide screen */
+#projects {
+  font-weight: bold;
+  border: 0.4vw solid lightskyblue;
+  width: 60vw;
+  margin: 1px auto;
+} /* small screen */
+@media only screen and (min-width:600px) {
+  #projects {
+    width: 75vw;
+    margin: 2px auto;
+  }} /* wide screen */
+.project-tile {
+  background-color: rgb(200, 220, 250);
+}
+#profile-link {
+  background-color: white;
+  width: 70%;
+  margin: 1px auto;
+}
+.footing {
+  clear: both;
+  text-align: center;
+  margin: auto;
+  padding-top: 25px;
+  padding-bottom: 10px;
+}
